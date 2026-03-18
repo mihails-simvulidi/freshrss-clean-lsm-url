@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-final class CleanUrlExtension extends Minz_Extension
+final class CleanLsmUrlExtension extends Minz_Extension
 {
     public function init(): void
     {
-        $this->registerHook('entry_before_insert', [self::class, 'cleanUrl']);
+        $this->registerHook('entry_before_insert', [self::class, 'cleanLsmUrl']);
     }
 
-    public static function cleanUrl(FreshRSS_Entry $entry): FreshRSS_Entry
+    public static function cleanLsmUrl(FreshRSS_Entry $entry): FreshRSS_Entry
     {
         $link = $entry->link(true);
         $url = parse_url($link);

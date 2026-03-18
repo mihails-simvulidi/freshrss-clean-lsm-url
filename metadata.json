@@ -3,6 +3,6 @@
     "author": "Mihails Simvulidi",
     "description": "Remove unnecessary query parameters from URLs",
     "version": 0.1,
-    "entrypoint": "CleanUrl",
+    "entrypoint": "CleanLsmUrl",
     "type": "user"
 }
