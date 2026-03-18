@@ -1,7 +1,7 @@
 {
-    "name": "Clean URL",
+    "name": "Clean LSM URL",
     "author": "Mihails Simvulidi",
-    "description": "Remove unnecessary query parameters from URLs",
+    "description": "Removes UTM parameters from *.lsm.lv URLs",
     "version": 0.1,
     "entrypoint": "CleanLsmUrl",
     "type": "user"
